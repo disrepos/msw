@@ -1,0 +1,55 @@
+body {
+    min-width: 350px;
+    background-image: url(../images/wal.jpg);
+    min-height: 1000px;
+    background-size: 100%;
+}
+
+
+
+.navbar-nav .nav-item a:hover {
+    font-size: 17px;
+    transition: 0.3s;
+    /* change the color to whatever you want */
+}
+
+.hero-area {
+    min-height: 500px;
+}
+
+.small-song:hover {
+    border: solid thin black;
+    cursor: pointer;
+    transform: translateX(15px);
+
+}
+
+.small-song {
+    background-color: #d0dceaca;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.06214985994397759) 0%, rgba(113, 140, 172, 1) 23%, rgba(255, 255, 255, 1) 100%);
+    transition: all 0.5s ease;
+
+}
+
+
+.container-fluid .card {
+    transition: all 0.3s ease;
+}
+
+.container-fluid .card:hover {
+    /* width: 280px; */
+
+    transform: translateY(-5px);
+
+}
+
+.overflow-auto::-webkit-scrollbar {
+    /* Hide the scrollbar for Webkit browsers */
+    display: none;
+}
+
+.overflow-auto {
+    /* Hide the scrollbar for other browsers */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
